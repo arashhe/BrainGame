@@ -169,16 +169,7 @@ public class MainActivity extends AppCompatActivity {
         }
         d=correctLocation;
 
-        //a=rand.nextInt(50)+1;
-        //b=rand.nextInt(50)+1;
         ans=calcul();
-        //Log.i("khodeANS",Integer.toString(ans));
-        //posetiveans=ans;
-       /* if(ans<0){
-
-            posetiveans=ans*-1;
-        } */
-        //question.setText(Integer.toString(a)+ " + " + Integer.toString(b));
 
         for (int i=0;i<4;i++){
 
@@ -269,21 +260,6 @@ public class MainActivity extends AppCompatActivity {
         btn4.setText(Integer.toString(location[3]));
 
 
-        /*for(int j=0;j<3;j++){
-                if (location[j] == location[j+1]) {
-                    Log.i("THERE IS SOME EQUALSSSSSSS","HAPPPPPEEEEENNNNNDDDDDD");
-                    Log.i("LOCATION 0 =",Integer.toString( location[0]));
-                    Log.i("LOCATION 1 =",Integer.toString( location[1]));
-                    Log.i("LOCATION 2 =",Integer.toString( location[2]));
-                    Log.i("LOCATION 3 =",Integer.toString( location[3]));
-                    Log.i("Correct LOCATION =",Integer.toString(correctLocation));
-                    Log.i("Correct ANSWEAR =",Integer.toString(ans));
-                }
-
-
-        }*/
-
-        //Log.i("this period"," done");
 
     }
 
@@ -399,67 +375,3 @@ public class MainActivity extends AppCompatActivity {
 
     }
 }
-
-
-
-
-
-
-/*
-if(Integer.parseInt(btn1.getText().toString())==a+b) {
-        btn1.setBackgroundColor(Color.GREEN);
-        new CountDownTimer(250,250) {
-@Override
-public void onTick(long l) {
-
-        }
-
-@Override
-public void onFinish() {
-        btn1.setBackgroundColor(Color.parseColor("#6C6969"));
-        }
-        }.start();
-        }
-        if(Integer.parseInt(btn2.getText().toString())==a+b) {
-        btn2.setBackgroundColor(Color.GREEN);
-        new CountDownTimer(250,250) {
-@Override
-public void onTick(long l) {
-
-        }
-
-@Override
-public void onFinish() {
-        btn2.setBackgroundColor(Color.parseColor("#6C6969"));
-        }
-        }.start();
-        }
-        if(Integer.parseInt(btn3.getText().toString())==a+b) {
-        btn3.setBackgroundColor(Color.GREEN);
-        new CountDownTimer(250,250) {
-@Override
-public void onTick(long l) {
-
-        }
-
-@Override
-public void onFinish() {
-        btn3.setBackgroundColor(Color.parseColor("#6C6969"));
-        }
-        }.start();
-        }
-        if(Integer.parseInt(btn4.getText().toString())==a+b) {
-        btn4.setBackgroundColor(Color.GREEN);
-        new CountDownTimer(250,250) {
-@Override
-public void onTick(long l) {
-
-        }
-
-@Override
-public void onFinish() {
-        btn4.setBackgroundColor(Color.parseColor("#6C6969"));
-        }
-        }.start();
-        }
-*/
